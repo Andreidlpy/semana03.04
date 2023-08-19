@@ -3,29 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfairisplay:wght@700&family=Raleway:wght@400;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
     <title>Ecommerce - Nosotros</title>
 </head>
 <body>
     <header>
-        <h1>Tienda <span>Muebles</span></h1>
+        <h1 class="nombre-sitio">Tienda <span>Muebles</span></h1>
+        <section class="contenedor-navegacion">
+            <nav class="nav-principal contenedor">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="tienda.html">Tienda</a>
+                <a href="blog.html">Blog</a>
+                <a href="galeria.html">Galería</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </section>
     </header>
-    <section>
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="tienda.html">Tienda</a>
-            <a href="blog.html">Blog</a>
-            <a href="galeria.html">Galería</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-    </section>
-    <main>
-        <h2>Sobre Nosotros</h2>
-        <div>
+    <main class="contenido-principal contenedor" >
+        <h2 class="text-center" >Sobre Nosotros</h2>
+        <div class="contenido-nosotros">
             <div>
                 <img src="img/nosotros.jpg" alt="">
             </div>
-            <div>
+            <div class="info-nosotros">
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Fuga fugit perspiciatis esse harum dolorum deserunt facilis 
@@ -41,9 +45,9 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div>
-            <div>
+    <footer class="site-footer">
+        <div class="grid-footer contenedor">
+            <div class="footer-menu">
                 <h3>Categorias</h3>
                 <nav>
                     <a href="">Cocina</a>
@@ -53,7 +57,7 @@
                     <a href="">Dormitorios</a>
                 </nav>
             </div>
-            <div>
+            <div class="footer-menu">
                 <h3>Sobre Nosotros</h3>
                 <nav>
                     <a href="#">Nuestra Historia</a>
@@ -63,7 +67,7 @@
                     <a href="#">Términos del Servicio</a>
                 </nav>
             </div>
-            <div>
+            <div class="footer-menu">
                 <h3>Soporte</h3>
                 <nav>
                     <a href="#">Preguntas Frecuentes</a>
@@ -72,7 +76,7 @@
                 </nav>
             </div>
         </div>
-        <p>Todos los derechos Reservados, TiendaMuebles</p>
+        <p class="copyright">Todos los derechos Reservados, TiendaMuebles</p>
     </footer>
 </body>
 </html>
